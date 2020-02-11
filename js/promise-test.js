@@ -51,29 +51,3 @@ function userGetData() {
         }, 1000);
     });
 }
-
-/*function userAuth(){
-    return new Promise(function(resolve, reject){
-        setTimeout(function(){
-            if(Math.random() > 0.2){
-                resolve("+ auth");
-            }
-            else{
-                reject("- auth");
-            }
-        }, 500);
-    });
-}
-
-function getData(){
-    return new Promise(function(resolve, reject){
-        setTimeout(function(){
-            if(Math.random() > 0.2){
-                resolve("+ getData");
-            }
-            else{
-                reject("- getData");
-            }
-        }, 500);
-    });
-}*/
